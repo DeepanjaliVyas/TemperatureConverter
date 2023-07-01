@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Lilita+One&family=Luckiest+Guy&family=Pacifico&family=Permanent+Marker&family=Righteous&family=Sigmar&family=Signika:wght@300&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    --bg-color:rgb(44, 38, 38);
+}
+html{
+    font-size:62.5%;
+}
+body{
+    min-height:100vh;
+    
+}
+.bgImg{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: url("../image/temp4.jpg") no-repeat;
+    background-size: cover;
+    
+}
+
+.main{
+    max-width: 100%;
+    background-color: #ff7f50ab;
+    border-radius: 3rem;
+    box-shadow: 0 0 1rem 1rem #ff7f50ab;
+    padding:2rem;
+
+
+}
+.head{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap:2rem;
+
+}
+ .head h1{
+    text-align: center;
+    font-size: 4rem;
+    color:rgb(39, 12, 11);
+    font-family: 'Righteous', cursive;
+}
+.t-icon{
+    font-size:7rem;
+    color:aliceblue;
+}
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+}
+input{
+    flex:5;
+    height:6rem;
+    font-size: 3rem;
+    font-weight:200;
+    border:none;
+    outline:none;
+    padding:0 2rem;
+    border-radius: 2rem 0 0 2rem;
+    opacity: 100% !important;
+}
+
+.icon{
+    flex:1;
+    height:6rem;
+    text-align: center;
+    background-color: rgb(221, 42, 42);
+    padding: 1rem;
+    border-radius: 0 2rem 2rem 0;
+    font-size: 4rem;
+    color: aliceblue;
+    font-weight: bolder;
+}
+.btn{
+    margin-top:3rem;
+    text-align: center;
+}
+.btn button{
+    background-color: aqua;
+    padding:12px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    outline:none;
+    border:none;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem 1rem aqua;
+    cursor: pointer;
+    transition:0.3s;
+    font-family: 'Arimo', sans-serif;
+}
+.btn button:hover{
+   background-color: aliceblue;
+}
+@media(max-width:1200px){
+    html{
+        font-size:55%;
+    }
+}
+@media(max-width:991px){
+    .main{
+        margin:5rem;
+    
+    }
+    .head h1{
+        font-size:4rem;
+    }
+    input{
+        font-size:3rem;
+    }
+    .btn{
+        /* padding-bottom: 2rem; */
+    }
+    .btn button{
+        padding:1.5rem;
+    }
+}
+@media(max-width:753px){
+    .main{
+        margin:10rem;
+    }
+    .head h1{
+        font-size: 4rem;
+    }
+    .t-icon{
+        font-size:5rem;
+    }
+    input{
+        font-size:3rem;
+        height:6rem;
+    }
+    .icon{
+        height:6rem;
+        font-size:4rem;
+    }
+    .btn button{
+        padding:1rem;
+        font-size:2rem;
+    }
+}
+@media(max-width:720px){
+    html{
+        /* font-size:40%; */
+    }
+    .head h1{
+        font-size: 3.5rem;
+    }
+}
+@media(max-width:661px){
+    .head h1{
+        font-size: 3.1rem;
+    }
+}
+@media(max-width:518px){
+    html{
+        font-size:50%;
+    }
+}
+@media(max-width:466px){
+    html{
+        font-size:45%;
+    }
+}
+@media(max-width:418px){
+    html{
+        font-size:40%;
+    }
+}
+@media(max-width:387px){
+    html{
+        font-size:35%;
+    }
+}
+@media(max-width:334px){
+    html{
+        font-size:30%;
+    }
+}
+@media(max-width:324px){
+    .main{
+        margin:5rem;
+    }
+    .btn button{
+        font-size:3rem;
+    }
+}
+@media(max-width:282px){
+    html{
+        font-size:25%;
+    }
+}
+@media(max-width:230px){
+    html{
+        font-size:20%;
+    }
+}
+@media(max-width:185px){
+    .main{
+        margin:10rem;
+    }
+    html{
+        font-size:15%;
+    }
+}
